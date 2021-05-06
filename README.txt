@@ -100,6 +100,6 @@ variantAnnotator should be done with other readily available annotation tools su
 order to compare agreement.
 
 Annotations for chromosome Y are currently not accounted for. The reason for this is that the various CCDS input
-files give the same ID for both chrX and chrY cds sequences if they are part of the pseudoautosomal region. To avoid
-that potential clash, the entirety of chrY is simply skipped if it's in the VCF. Accomadating chrY in future versions
-should be trivial to implement.
+files give the same ID for both chrX and chrY cds sequences if they are part of the pseudoautosomal region. To
+avoid that potential clash, the entirety of chrY is simply skipped if it's in the VCF. Accomadating chrY in future
+versions should be trivial to implement.
